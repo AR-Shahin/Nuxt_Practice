@@ -1,4 +1,4 @@
-# slider
+# practice
 
 ## Build Setup
 

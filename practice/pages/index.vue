@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <div>
+    <div class="text-center mt-5 pt-5">
       <Logo />
-      <h1 class="title">slider</h1>
+      <h1 class="title">practice</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,19 +26,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'website',
+}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

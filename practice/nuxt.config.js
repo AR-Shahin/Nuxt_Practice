@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'slider',
+    title: 'practice',
     htmlAttrs: {
       lang: 'en',
     },
@@ -17,7 +17,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: 'plugins/owl.js', ssr: false }],
+  plugins: [
+    '~/plugins/swiper.js',
+     '~/plugins/bootstrap.js'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -27,11 +30,13 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
   ],
-
+  eslint: {
+      fix: true
+    },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
